@@ -1,0 +1,109 @@
+@media (max-width: 500px) {
+  body {
+    width: 450px !important;
+  }
+  #Goals,
+  #Scopes,
+  #Team,
+  #primary,
+  .right {
+    width: 450px !important;
+  }
+  .left {
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: 15px;
+    width: 450px !important;
+  }
+  .container {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 450px !important;
+  }
+  .right {
+    width: 450px !important;
+  }
+  .flag {
+    width: 30px !important;
+  }
+  .user {
+    width: 30px !important;
+  }
+  .goals-1 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+  }
+  .goals-2 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+  }
+  .goals-3 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+  }
+  .team-1 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+    line-height: 2.5 !important;
+  }
+  .team-2 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+    line-height: 2.5 !important;
+  }
+  .team-3 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+    line-height: 2.5 !important;
+  }
+  .team-4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+    line-height: 2.5 !important;
+  }
+  .scopes-flex {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .scopes-a {
+    height: 150px !important;
+  }
+  .scopes-b {
+    height: 150px !important;
+  }
+  .primary-a {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+  }
+  .primary-b {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+  }
+  .p-icon {
+    width: 45px !important;
+  }
+  .time {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 150px !important;
+  }
+}

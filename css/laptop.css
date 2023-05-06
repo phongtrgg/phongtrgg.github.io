@@ -1,0 +1,623 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  margin-left: 50px auto;
+  margin-right: 50px auto;
+}
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+} /*gửi mentor : phần nội dung của bài asm em thực sự ko có cái
+gì để điền vào nên em điền theo nội dung bản hướng dẫn làm ơn châm trước
+cho em qua mục thay đổi nội dung người làm thực sự em ko biết viết thêm
+gì nữa đừng đánh trượt em vì nội dung nữa mà huhu T_T*/
+
+.big-banner {
+  height: 500px;
+  position: relative;
+}
+
+/* -----------------navbar-banner------------- */
+#nav-bar {
+  text-align: center;
+}
+#banner {
+  height: 100px;
+  position: absolute;
+  display: flex;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+.img-a {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, 250%);
+  border: 8px solid #fff;
+} /*chỉnh bố cục ảnh cá nhân*/
+.nav-item {
+  border: 2px solid #e9ecef;
+  padding: 20px 100px;
+}
+.img-banner {
+  width: 100vw;
+  height: 600px;
+  position: relative;
+}
+
+.nav-bar {
+  border: 2px solid #e9ecef;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  height: 80px;
+}
+
+.span {
+  font-size: 16px;
+  color: #adb5bd;
+}
+.a-a,
+.a-b,
+.a-c,
+.a-d {
+  display: inline-block;
+  border-left: 2px solid #e9ecef;
+  padding-top: 30px;
+  padding-right: 70px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #444;
+} /*chỉnh bố cục cho phần nav-bar*/
+.icon-a {
+  color: #228be6;
+}
+.a-d {
+  border-right: 2px solid #e9ecef;
+  padding-right: 80px;
+  padding-left: 60px;
+}
+.a-a {
+  padding-left: 50px;
+}
+.a-b {
+  padding-left: 50px;
+  padding-right: 250px;
+}
+.a-c {
+  padding-left: 250px;
+}
+/* ------------------------------------ */
+/* Muc tiêu và thông tin */
+.target-info.container {
+  display: flex;
+  width: 100vw;
+  height: 500px;
+  align-self: start;
+  line-height: 2;
+}
+#target {
+  display: flex;
+  background-color: #f8f9fa;
+  flex-basis: 50vw;
+  padding-left: 30px;
+  padding-top: 50px;
+  flex-direction: column;
+  padding-right: 100px;
+  align-items: baseline;
+} /*chỉnh bố cục phần mục tiêu*/
+.target-p {
+  line-height: 3;
+} /*chỉnh khoảng cách giữa các dòng*/
+/* ------------------------------------- */
+/*chỉnh bố cục mục thông tin cá nhân*/
+#personal-info {
+  width: 50% auto;
+  background-color: #e9ecef;
+  flex-basis: 50vw;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+ul {
+  list-style: none;
+} /*xoá chấm đầu dòng của li*/
+.h1-a {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.h1-b {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.last-li {
+  margin-bottom: 30px;
+}
+.hientai {
+  background-color: #4dabf7;
+  color: #fff;
+  width: 60px;
+  padding-bottom: -10px;
+  border-radius: 10px;
+} /*chỉnh màu,màu nền, bo góc  chữ hiện tại trong mục kinh nghiệm*/
+.time {
+  display: flex;
+}
+/* ----------------------------------- */
+.experience {
+  width: 300px;
+  height: 500px;
+  line-height: 1.1;
+  padding-left: 20px;
+  position: relative;
+  border: 2px solid #ced4da;
+  padding-top: 30px;
+} /*chỉnh bố cục bảng kinh nghiệm*/
+.icon-b {
+  position: absolute;
+  width: 70px;
+  left: 70%;
+  top: 0;
+  color: #ced4da;
+} /*chỉnh icon mục kinh nghiệm*/
+.icon-c {
+  position: absolute;
+  width: 70px;
+  left: 70%;
+  top: 0%;
+  color: #ced4da;
+} /*chỉnh icon mục học vấn*/
+/* -------------------------------------------------- */
+/*chỉnh bố cục bảng học vấn*/
+.hocvan {
+  width: 300px;
+  height: 500px;
+  line-height: 4;
+  padding-left: 20px;
+  position: relative;
+  border: 2px solid #e9ecef;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+/*chỉnh bố cục bảng hoạt động*/
+.hoatdong {
+  width: 300px;
+  height: 500px;
+  line-height: 1.1;
+  padding-left: 20px;
+  position: relative;
+  border: 2px solid #e9ecef;
+  padding-top: 30px;
+}
+.icon-d {
+  position: absolute;
+  width: 70px;
+  left: 70%;
+  top: 0%;
+  color: #ced4da;
+} /*chỉnh icon mục hoạt động*/
+/*chỉnh bố cục của bảng sở thích*/
+.sothich {
+  width: 300px;
+  height: 400px;
+  line-height: 2;
+  padding-left: 20px;
+  position: relative;
+  border: 2px solid #e9ecef;
+  padding-top: 30px;
+}
+.icon-e {
+  position: absolute;
+  width: 70px;
+  left: 70%;
+  top: 0%;
+  color: #ced4da;
+} /*chỉnh icon sở thích*/
+.amnhac {
+  position: absolute;
+  width: 40px;
+  left: 8%;
+  top: 25%;
+  color: #74c0fc;
+  border-radius: 50%;
+  border: 2px solid #74c0fc;
+} /*chỉnh icon âm nhạc mục sở thích*/
+.vetranh {
+  position: absolute;
+  width: 40px;
+  left: 28%;
+  top: 25%;
+  color: #74c0fc;
+  border-radius: 50%;
+  border: 2px solid #74c0fc;
+} /*chỉnh icon vẽ tranh mục sở thích */
+.chupanh {
+  position: absolute;
+  width: 40px;
+  left: 50%;
+  top: 25%;
+  color: #74c0fc;
+  border-radius: 50%;
+  border: 2px solid #74c0fc;
+} /*chỉnh icon chụp ảnh mục sở thích*/
+.xemphim {
+  position: absolute;
+  width: 40px;
+  left: 72%;
+  top: 25%;
+  color: #74c0fc;
+  border-radius: 50%;
+  border: 2px solid #74c0fc;
+} /*chỉnh icon xem phim mục sở thích*/
+.flex-a {
+  display: flex;
+  margin-top: 80px;
+  font-size: 12px;
+  gap: 20px;
+} /* chỉnh bố cục nội dung phần sở thích*/
+.ngonngu {
+  width: 300px;
+  height: 400px;
+  line-height: 2;
+  padding-left: 20px;
+  position: relative;
+  border: 2px solid #e9ecef;
+  padding-top: 30px;
+}
+.lg {
+  position: absolute;
+  width: 70px;
+  left: 70%;
+  top: 0%;
+  color: #ced4da;
+} /*chỉnh màu vị trí kích thước icon mục ngôn ngữ*/
+.skill {
+  width: 300px;
+  height: 400px;
+  line-height: 2;
+  padding-left: 20px;
+  position: relative;
+  border: 2px solid #e9ecef;
+  padding-top: 30px;
+}
+.container-a {
+  display: grid;
+  grid-template-columns: 1fr 385px 1fr;
+  align-self: center;
+  justify-self: center;
+} /* chỉnh bố cục của kinh nghiệm-học vấn-hoạt đông*/
+.container-b {
+  display: grid;
+  grid-template-columns: 1fr 385px 1fr;
+  align-self: center;
+  justify-self: center;
+} /* chỉnh bố cục của sở thích-ngôn ngữ-kỹ năng*/
+.icon-skill {
+  position: absolute;
+  width: 70px;
+  left: 70%;
+  top: 0%;
+  color: #ced4da;
+} /*chỉnh màu sắc kích thước vị trí icon mục kỹ năng*/
+/*chỉnh bố cục phần kỹ năng*/
+.span-1a {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-1b {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-1c {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-2a {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-2b {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-2c {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-3a {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-3b {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-3c {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-4a {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-4b {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-4c {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+} /*chỉnh bố cục phần kỹ năng*/
+
+/*chỉnh bố cục phần ngôn ngữ*/
+.span-5a {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-5b {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-5c {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-6a {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-6b {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-6c {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+} /*chỉnh bố cục phần ngôn ngữ*/
+/* -------------------------------------------------- */
+/*chỉnh bố cục phần chứng chỉ giải thưởng*/
+#certificate {
+  padding-top: 60px;
+  width: 100vw;
+  height: 800px;
+  background-color: #f1f3f5;
+}
+.cc-1 {
+  display: flex;
+  flex-direction: row;
+}
+.cc-2 {
+  padding-left: 20px;
+  width: 300px;
+  align-items: flex-start;
+  line-height: 4;
+}
+.p-1 {
+  line-height: 1.5;
+}
+.cc-4 {
+  padding-left: 20px;
+  width: 300px;
+  align-items: flex-start;
+  line-height: 4;
+}
+.cc-3 {
+  display: flex;
+  flex-direction: row;
+}
+.cc-5 {
+  display: flex;
+  flex-direction: row;
+}
+.cc-6 {
+  padding-left: 20px;
+  width: 300px;
+  align-items: flex-start;
+  line-height: 4;
+}
+.fix-a,
+.fix-b,
+.fix-c {
+  margin: 20px;
+}
+.fix-a {
+  margin-left: -1px;
+}
+.fix-b {
+  border-left: 2px solid #d6c08d;
+  padding-left: 20px;
+}
+.fix-ab {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d6c08d;
+  width: 1200px;
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.fix-c {
+  padding-top: 30px;
+  margin-left: 20%;
+}
+.bg-grey {
+  margin-top: 30px;
+}
+/* ----------------------------------------------------- */
+/* chỉnh bố cục cho phần dự án */
+.project-all {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+}
+.cv-div-a {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-top: 2px solid #e9ecef;
+  border-bottom: 2px solid #e9ecef;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table-a-1 {
+  line-height: 1.6;
+  border-bottom: 2px solid #e9ecef;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.table-a-2 {
+  line-height: 1.6;
+  border-bottom: 2px solid #e9ecef;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.table-a-3 {
+  width: 350px;
+  line-height: 1.6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.table-a-fix {
+  width: 350px;
+  line-height: 1.6;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.projet-a {
+  height: 550px;
+  width: 350px;
+  border: 2px solid #e9ecef;
+  margin-right: 30px;
+}
+.title-cv-a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.project-b {
+  height: 550px;
+  width: 350px;
+  border: 2px solid #e9ecef;
+  margin-right: 30px;
+}
+.project-c {
+  height: 550px;
+  width: 350px;
+  border: 2px solid #e9ecef;
+}
+.project-all {
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+}
+/* ------------------------------------------------- */
+/*chỉnh bố cục phần footer*/
+.footer-ic {
+  background-color: #199cdb;
+  color: #fff;
+  width: 40px;
+  border-radius: 50%;
+} /*đổ màu icon footer và bo góc tròn */
+#footer {
+  padding: 20px;
+  width: 100vw;
+  background-color: #e9ecef;
+}
+.footer-ul {
+  display: flex;
+  width: 100vw;
+  background-color: #e9ecef;
+  margin-left: 30%;
+}
+.footer-li {
+  margin: 20px;
+}
+.fix-duan {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+a {
+  text-decoration: none;
+  color: #868e96;
+}
+
+/*   xoá gạch chân thẻ a và đổi màu */
+/*chỉnh bố cục cho phần footer */
+/* -----fix---- */
+.time2021 {
+  background-color: #4dabf7;
+  color: #fff;
+  width: 40px;
+  border-radius: 15px;
+  padding: 2px;
+}
+.p-1 {
+  color: #adb5bd;
+}
+.experience h1 {
+  font-size: 34px;
+  padding-bottom: 10px;
+}

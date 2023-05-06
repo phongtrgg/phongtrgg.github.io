@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 700px;
+  }
+  #Goals,
+  #Scopes,
+  #Team,
+  #primary,
+  .right {
+    width: 700px;
+  }
+  .left {
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: 20px;
+    width: 700px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+  }
+  .right {
+    width: 700px;
+  }
+  .flag {
+    width: 40px;
+  }
+  .user {
+    width: 40px;
+  }
+  .goals-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+  }
+  .goals-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+  }
+  .goals-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+  }
+  .team-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    line-height: 2.5;
+  }
+  .team-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    line-height: 2.5;
+  }
+  .team-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    line-height: 2.5;
+  }
+  .team-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    line-height: 2.5;
+  }
+  .scopes-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .scopes-a {
+    height: 150px;
+  }
+  .scopes-b {
+    height: 150px;
+  }
+  .primary-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+  }
+  .primary-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+  }
+  .p-icon {
+    width: 40px;
+  }
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+  }
+  .time-title {
+    display: block;
+    width: 100%;
+  }
+  .user-1,
+  .user-2,
+  .user-3,
+  .user-4 {
+    display: block;
+    width: 100%;
+  }
+  .g-1,
+  .g-2,
+  .g-3 {
+    display: block;
+    width: 100%;
+  }
+}

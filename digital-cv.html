@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV-Cá Nhân</title>
+    <link rel="stylesheet" href="css/digital-cv.tablet.css" />
+    <link rel="stylesheet" href="css/digital-cv.mobile.css" />
+    <link rel="stylesheet" href="icon-list.html" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-size: 20px;
+        width: 100vw;
+        height: auto;
+        font-family: sans-serif;
+        line-height: 1.5;
+        padding: 2%;
+      }
+      .container {
+        display: flex;
+        margin: 10px;
+        box-shadow: 0px 0px 10px 2px #444;
+      }
+      .left {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        width: 80vw;
+      }
+      .right {
+        width: 20vw auto;
+      }
+      h1 {
+        border-bottom: 2px solid #dee2e6;
+      }
+      #Goals,
+      #Scopes,
+      #Team,
+      #primary,
+      .right {
+        border: 14px solid #293efa;
+        padding-left: 2%;
+        background-color: #edf2ff;
+      }
+      /* Goals */
+      .flag {
+        width: 40px;
+        margin-right: 5%;
+        margin-left: 2%;
+      }
+      .goals-1 {
+        display: flex;
+        margin: 2% 0;
+        border-bottom: 2px solid #dee2e6;
+      }
+      .goals-2 {
+        display: flex;
+        margin: 2% 0;
+        border-bottom: 2px solid #dee2e6;
+      }
+      .goals-3 {
+        display: flex;
+        margin: 2% 0;
+        border-bottom: 2px solid #dee2e6;
+      }
+      /* Team */
+      .user {
+        width: 40px;
+        margin-right: 5%;
+        margin-left: 2%;
+      }
+      .team-1 {
+        display: flex;
+        margin: 2% 0;
+      }
+      .team-2 {
+        display: flex;
+        margin: 2% 0;
+      }
+      .team-3 {
+        display: flex;
+        margin: 2% 0;
+      }
+      .team-4 {
+        display: flex;
+        margin: 2% 0;
+      }
+      /* scopes */
+      .scopes-flex {
+        display: flex;
+      }
+      .scopes-a,
+      .scopes-b {
+        margin: 10px;
+        padding: 0 20px;
+        line-height: 2;
+      }
+      /* primary */
+      .p-icon {
+        width: 80px;
+        margin-right: 5%;
+        margin-left: 2%;
+      }
+      .primary-a {
+        display: flex;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .primary-b {
+        display: flex;
+        margin-top: 10px;
+      }
+      /* Timeline */
+      .right {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .time {
+        display: flex;
+      }
+      .number {
+        font-size: 24px;
+        background-color: #bac8ff;
+        border-radius: 50%;
+        border: 1px solid#faa2c1;
+        height: 50px;
+        padding: 1% 2% 0 1%;
+        margin-top: 4%;
+        margin-right: 5%;
+      }
+      .time-title {
+        border-bottom: 2px dotted #dee2e6;
+      }
+      footer {
+        width: 100vw;
+      }
+      button {
+        background-color: rgb(14, 79, 163);
+        padding: 1%;
+        border-radius: 3px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      button:hover {
+        transform: translateY(-15px);
+        transition: transform 0.3s ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div id="Goals">
+          <div>
+            <h1>Goals</h1>
+            <div class="goals-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="flag"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"
+                />
+              </svg>
+              <div class="g-1">
+                <h4>Goals 1</h4>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing </span>
+              </div>
+            </div>
+            <div class="goals-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="flag"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"
+                />
+              </svg>
+              <div class="g-2">
+                <h4>Goals 2</h4>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing </span>
+              </div>
+            </div>
+            <div class="goals-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="flag"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"
+                />
+              </svg>
+              <div class="g-3">
+                <h4>Goals 3</h4>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Team">
+          <h1>Team</h1>
+          <div>
+            <div class="team-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="user"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                />
+              </svg>
+              <div class="user-1">
+                <h4>Member 01</h4>
+                <span>Trần Trường An</span>
+              </div>
+            </div>
+            <div class="team-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="user"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                />
+              </svg>
+              <div class="user-2">
+                <h4>Member 02</h4>
+                <span>Tiêu Viêm</span>
+              </div>
+            </div>
+            <div class="team-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="user"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                />
+              </svg>
+              <div class="user-3">
+                <h4>Member 03</h4>
+                <span>Dược Lão</span>
+              </div>
+            </div>
+            <div class="team-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="user"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                />
+              </svg>
+              <div class="user-4">
+                <h4>Member 04</h4>
+                <span>Lý Niệm Phàm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Scopes">
+          <h1>Scopes</h1>
+          <div class="scopes-flex">
+            <div class="scopes-a">
+              <h4>IN</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                alias id numquam aliquam, cupiditate inventore ducimus commodi
+                unde quae aspernatur
+              </p>
+            </div>
+            <div class="scopes-b">
+              <h4>Out</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                alias id numquam aliquam, cupiditate inventore ducimus commodi
+                unde quae aspernatur
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="primary">
+          <h1>Primary</h1>
+          <div class="primary-a">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="p-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"
+              />
+            </svg>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Reiciendis fugiat cumque expedita
+            </p>
+          </div>
+          <div class="primary-b">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="p-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"
+              />
+            </svg>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Reiciendis fugiat cumque expedita
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <h1>Timeline</h1>
+        <div class="time">
+          <div class="number">01</div>
+          <div class="time-title">
+            <h4>project date</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur?</span>
+          </div>
+        </div>
+        <div class="time">
+          <div class="number">02</div>
+          <div class="time-title">
+            <h4>project date</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur?</span>
+          </div>
+        </div>
+        <div class="time">
+          <div class="number">03</div>
+          <div class="time-title">
+            <h4>project date</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur?</span>
+          </div>
+        </div>
+        <div class="time">
+          <div class="number">04</div>
+          <div class="time-title">
+            <h4>project date</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur?</span>
+          </div>
+        </div>
+        <div class="time">
+          <div class="number">05</div>
+          <div class="time-title">
+            <h4>project date</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur?</span>
+          </div>
+        </div>
+        <div class="time">
+          <div class="number">06</div>
+          <div class="time-title">
+            <h4>project date</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur?</span>
+          </div>
+        </div>
+        <div class="time">
+          <div class="number">07</div>
+          <div class="time-title">
+            <h4>project date</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <button>
+        <a href="index.html">Back to home</a>
+      </button>
+    </footer>
+  </body>
+</html>
